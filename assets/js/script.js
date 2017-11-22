@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$("document").ready(function() {
 
 	$("#adventures").hover(function(){
 		if ($("#adventuredrop").hasClass("active")) {
