@@ -1,15 +1,21 @@
 $(document).ready(function(){
 
 	$("#adventures").hover(function(){
+	// jquery function number 1
 		if ($("#adventuredrop").hasClass("active")) {
+			// jquery function number 2
 			$("#adventuredrop").removeClass("active");
+			// jquery function number 3
 			setTimeout(function(){
 				$("#adventuredrop").hide();
+				// jquery function number 4
 			}, 500);
 		} else {
 			$("#adventuredrop").show();
+			// jquery function number 5
 			setTimeout(function()
 				{$("#adventuredrop").addClass("active");
+				// jquery function number 6
 			}, 0);
 		}	
 	})
