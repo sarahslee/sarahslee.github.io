@@ -308,6 +308,14 @@ a:visited {
 }
 
 /* DESIGN PAGE */
+.designspread {
+	width: 50%;
+	text-align: center;
+
+	margin-top: 75px;
+	margin-left: 60px;
+}
+
 #designpage {
 	height: 87%;
 
